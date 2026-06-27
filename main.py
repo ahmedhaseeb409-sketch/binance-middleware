@@ -14,8 +14,7 @@ API_KEY = os.environ.get("BINANCE_API_KEY", "YOUR_TESTNET_API_KEY")
 API_SECRET = os.environ.get("BINANCE_API_SECRET", "YOUR_TESTNET_API_SECRET")
 AGENT_TOKEN = os.environ.get("AGENT_TOKEN", "my-secret-agent-token")
 
-BINANCE_TESTNET_URL = "https://testnet.binance.vision"
-BINANCE_BACKUP_URL = "https://testnet.binance.vision"
+BINANCE_TESTNET_URL = "https://testnet.binance.vision"  # Spot testnet
 # ------------------------------------------------------------------ #
 
 def sign(params: dict) -> str:
